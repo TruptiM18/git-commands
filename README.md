@@ -1,4 +1,7 @@
 # day to day git-commands
+
+GIT documentation available at https://git-scm.com/docs has been used to learn and take short note for following GITcommands.
+
 To learn various git commands for version control.
 
 1.
