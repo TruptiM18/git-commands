@@ -7,6 +7,7 @@ GIT documentation available at https://git-scm.com/docs has been used to learn a
 
 1.
 git-init - Create an empty Git repository or reinitialize an existing one
+
 $ git init
 Initialized empty Git repository in C:/Users/XXXX/Documents/git-commands/.git/
 
@@ -49,11 +50,13 @@ no changes added to commit (use "git add" and/or "git commit -a")
 git add -This command updates the index using the current content found in the working tree, to prepare the content staged for the next commit.
 It typically adds the current content of existing paths as a whole, but with some options it can also be used to add content with only part of the changes made to the working tree files applied, or remove paths that do not exist in the working tree anymore.
 The "index" holds a snapshot of the content of the working tree, and it is this snapshot that is taken as the contents of the next commit. Thus after making any changes to the working tree, and before running the commit command, you must use the add command to add any new or modified files to the index.
+
 $ git add README.md
 
 
 6.
 git push - Update remote refs along with associated objects
+
 $ git push origin master
 Enumerating objects: 8, done.
 Counting objects: 100% (8/8), done.
