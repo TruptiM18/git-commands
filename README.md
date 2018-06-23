@@ -17,7 +17,7 @@ The primary reason for rerunning git init is to pick up newly added templates (o
 
 2.
 git remote add origin - adds link to remote repository
-$ git remote add origin https://github.com/TruptiM18/git-commands.git
+$ git remote add origin https://github.com/XXXX/git-commands.git
 
 
 3.
@@ -29,7 +29,7 @@ remote: Counting objects: 3, done.
 remote: Compressing objects: 100% (2/2), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
-From https://github.com/TruptiM18/git-commands
+From https://github.com/XXXX/git-commands
  * branch            master     -> FETCH_HEAD
  * [new branch]      master     -> origin/master
 
@@ -65,7 +65,7 @@ Compressing objects: 100% (4/4), done.
 Writing objects: 100% (6/6), 1.62 KiB | 829.00 KiB/s, done.
 Total 6 (delta 1), reused 0 (delta 0)
 remote: Resolving deltas: 100% (1/1), done.
-To https://github.com/TruptiM18/git-commands.git
+To https://github.com/XXXX/git-commands.git
    eaee12f..5e4a8b9  master -> master
 
 
